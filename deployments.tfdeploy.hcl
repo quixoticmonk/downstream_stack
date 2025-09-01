@@ -8,7 +8,7 @@ deployment "dev" {
     vpc = upstream_input.upstream_stack.vpc_id
   }
 }
-deployment "dev1 {
+deployment "dev1" {
   inputs = {
     vpc = upstream_input.upstream_stack.vpc_id
   }
