@@ -1,6 +1,6 @@
-upstream_input "network_stack" {
+upstream_input "upstream_stack" {
   type   = "stack"
-  source = "app.terraform.io/hashicorp/Default Project/networking-stack"
+  source = "app.terraform.io/hashicorp/manu-experiments/upstream_stack"
 }
 
 deployment "dev" {
