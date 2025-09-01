@@ -65,7 +65,7 @@ deployment "dev10" {
   }
 }
 
-deployment "dev11 {
+deployment "dev11" {
   inputs = {
     vpc = upstream_input.upstream_stack.vpc_id
   }
